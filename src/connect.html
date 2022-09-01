@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang=en><meta charset=UTF-8><meta content="IE=edge"http-equiv=X-UA-Compatible><meta content="width=device-width,initial-scale=1"name=viewport><link href=style.css rel=stylesheet><script src=main.js></script><title>>CryPTR</title><body><script>config.nickname && config.password && config.myPort && config.receiverIP && config.receiverPort && 1 == config.connect ? location.href = "index.html" : (fs.readdir("./src/themes", ((err, data) => {
+    !err && data[0] && data.forEach((element => {
+        if (element.endsWith(".css")) {
+            var link = document.createElement("link");
+            link.type = "text/css", link.rel = "stylesheet", document.head.appendChild(link), link.href = "themes/" + data
+        }
+    }))
+})), fs.readdir("./src/plugins", ((err, data) => {
+    !err && data[0] && data.forEach((element => {
+        if (element.endsWith(".js")) {
+            var link = document.createElement("script");
+            link.type = "text/javascript", document.head.appendChild(link), link.src = "plugins/" + data
+        }
+    }))
+}))), document.body.addEventListener("keydown", (e => {
+    "Enter" == e.key && Connect()
+}));</script><center><div class=connect-div><span><h1 class=title-connect>Connect :</h1><div class=input><input id=nickname placeholder=nickname></div><br><div class=input><input id=password placeholder=password type=password></div><br><div class=input><input id=myPort placeholder="your port"></div><br><div class=input><input id=receiverIP placeholder="target ip"></div><br><div class=input><input id=receiverPort placeholder="target port"></div><br><div id=error><p></div><button class=button onclick=Connect()>Connect</button></span></div></center>

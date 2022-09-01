@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang=en><meta charset=UTF-8><meta content="IE=edge"http-equiv=X-UA-Compatible><meta content="width=device-width,initial-scale=1"name=viewport><script src=main.js></script><link href=style.css rel=stylesheet><title>>CryPTR</title><div class=tchat-div><center><div class=messages><textarea cols=100 id=Messages readonly rows=11 style=resize:none></textarea></div><div class=inputMessages><button class=button onclick=Disconnect() style=color:#959595>Disconnect</button> <input id=message placeholder="    message"></div></center></div><script>config.nickname || config.password || config.myPort || config.receiverIP || config.receiverPort || !0 === config.connect ? (ConnectServer(), fs.readdir("./src/themes", ((err, data) => {
+    !err && data[0] && data.forEach((element => {
+        if (element.endsWith(".css")) {
+            var link = document.createElement("link");
+            link.type = "text/css", link.rel = "stylesheet", document.head.appendChild(link), link.href = "themes/" + data
+        }
+    }))
+})), fs.readdir("./src/plugins", ((err, data) => {
+    !err && data[0] && data.forEach((element => {
+        if (element.endsWith(".js")) {
+            var link = document.createElement("script");
+            link.type = "text/javascript", document.head.appendChild(link), link.src = "plugins/" + data
+        }
+    }))
+}))) : location.href = "connect.html", document.body.addEventListener("keydown", (e => {
+    "Enter" == e.key && (sendMessage(document.getElementById("message").value), document.getElementById("message").value = "")
+}));</script>

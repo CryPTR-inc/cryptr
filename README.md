@@ -3,7 +3,7 @@
 ## _The best encrypted private tchat_
 
 CryPTR is [Private Tchat Remote] using electron in JavaScript.
-Xor encryption in requests.
+AES256 encryption in requests.
 Custom password key for encryption, GUI with Html & CSS.
 - Available for Linux, Mac OS/X, Windows(>7)
 - Beautiful GUI with custom theme/plugin possible. (You can make you own theme/plugins simply)

@@ -13,7 +13,7 @@ Custom password key for encryption, GUI with Html & CSS.
 ## Features
 
 - Tchat with your friends without spying.
-- Encrypted request with shared password (with XOR)
+- Encrypted request with shared password (with AES256)
 - GUI, using electron in JavaScript. (+v14 nodejs of preferences)
 - Multi OS compatibility. 
 - Custom Plugin/Theme

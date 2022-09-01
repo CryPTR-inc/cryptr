@@ -22,12 +22,9 @@ Made by Ezermoz and Y.v.a.i.n - CryPTR INC
 ## How
 ![alt text](https://media.discordapp.net/attachments/1008385372981563535/1014939862882865193/CryPTR_2.png?width=1193&height=671)
 
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
-
 ## Installation
 
-Dillinger requires [Node.js](https://nodejs.org/) v14+ to run.
+CryPTR requires [Node.js](https://nodejs.org/) v14+ to run.
 
 Install the dependencies and start the server.
 

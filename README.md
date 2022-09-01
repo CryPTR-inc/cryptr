@@ -18,7 +18,7 @@ Custom password key for encryption, GUI with Html & CSS.
 - Multi OS compatibility. 
 - Custom Plugin/Theme
 
-Made by Ezermoz and Y.v.a.i.n - CryPTR INC
+Made by [Ezermoz](https://github.com/Ezermoz) and [Y-v-a-i-n](https://github.com/Y-v-a-i-n) - CryPTR INC
 ## How
 ![alt text](https://media.discordapp.net/attachments/1008385372981563535/1014939862882865193/CryPTR_2.png?width=1193&height=671)
 

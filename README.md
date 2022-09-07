@@ -31,7 +31,7 @@ Install the dependencies and start the server.
 ```batch
 cd CryPTR-main
 npm i
-node index.js
+electron .
 ```
 #### Building for source
 Generating pre-built zip archives for distribution:
